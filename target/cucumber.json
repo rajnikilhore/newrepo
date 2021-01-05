@@ -1,0 +1,58 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Search functionality",
+        "description": "",
+        "id": "google-search-functionality;search-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7123407300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to google page",
+            "match": {
+              "location": "StepDefination.user_navigates_to_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2250206900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Enter String in search box",
+            "match": {
+              "location": "StepDefination.user_Enter_String_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101808000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Result will display",
+            "match": {
+              "location": "StepDefination.result_will_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search functionality",
+    "description": "I want to use this template for my feature file",
+    "id": "google-search-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/sdet.feature"
+  }
+]
