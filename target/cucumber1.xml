@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="50.521539">
+    <testcase classname="Check that name field in ola corporate accepting valid values" name="Check name field" time="31.317871">
+        <skipped><![CDATA[Given Contact us form is open...............................................passed
+When enter "<value>" for name field.........................................undefined
+Then Valid values should be accepted........................................skipped
+]]></skipped>
+    </testcase>
+    <testcase classname="Check that name field in ola corporate accepting valid values" name="Check name field 2" time="19.203668">
+        <failure message="org.openqa.selenium.SessionNotCreatedException: session not created&#10;from chrome not reachable&#10;  (Session info: chrome=87.0.4280.88)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'NBSG03874W-TP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x0054C0C3+3326147]&#10;&#9;Ordinal0 [0x00430851+2164817]&#10;&#9;Ordinal0 [0x002B7140+618816]&#10;&#9;Ordinal0 [0x002AD404+578564]&#10;&#9;Ordinal0 [0x002ADACB+580299]&#10;&#9;Ordinal0 [0x002AED35+585013]&#10;&#9;Ordinal0 [0x002A9D61+564577]&#10;&#9;Ordinal0 [0x002B82C0+623296]&#10;&#9;Ordinal0 [0x00256BDD+224221]&#10;&#9;Ordinal0 [0x00255CAC+220332]&#10;&#9;Ordinal0 [0x0025189B+202907]&#10;&#9;Ordinal0 [0x00233DF4+81396]&#10;&#9;Ordinal0 [0x00234DEE+85486]&#10;&#9;Ordinal0 [0x00234D79+85369]&#10;&#9;Ordinal0 [0x004485DC+2262492]&#10;&#9;GetHandleVerifier [0x006D2874+1487204]&#10;&#9;GetHandleVerifier [0x006D23CD+1486013]&#10;&#9;GetHandleVerifier [0x006DA368+1518680]&#10;&#9;GetHandleVerifier [0x006D2F4E+1488958]&#10;&#9;Ordinal0 [0x0043ED0D+2223373]&#10;&#9;Ordinal0 [0x0044A12B+2269483]&#10;&#9;Ordinal0 [0x0044A26F+2269807]&#10;&#9;Ordinal0 [0x0045ECB8+2354360]&#10;&#9;BaseThreadInitThunk [0x763C6359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x778C7C24+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x778C7BF4+180]&#10;&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)&#13;&#10;&#9;at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)&#13;&#10;&#9;at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)&#13;&#10;&#9;at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)&#13;&#10;&#9;at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)&#13;&#10;&#9;at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)&#13;&#10;&#9;at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)&#13;&#10;&#9;at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;&#10;&#9;at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at StepDefination.OlaCorporate1StepDef.contact_us_form_is_open(OlaCorporate1StepDef.java:18)&#13;&#10;&#9;at ✽.Given Contact us form is open(src/test/java/features/OlaCorportae1.feature:6)&#13;&#10;"><![CDATA[Given Contact us form is open...............................................failed
+When enter "<value>" for name field.........................................undefined
+Then Valid values should be accepted........................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NBSG03874W-TP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0054C0C3+3326147]
+	Ordinal0 [0x00430851+2164817]
+	Ordinal0 [0x002B7140+618816]
+	Ordinal0 [0x002AD404+578564]
+	Ordinal0 [0x002ADACB+580299]
+	Ordinal0 [0x002AED35+585013]
+	Ordinal0 [0x002A9D61+564577]
+	Ordinal0 [0x002B82C0+623296]
+	Ordinal0 [0x00256BDD+224221]
+	Ordinal0 [0x00255CAC+220332]
+	Ordinal0 [0x0025189B+202907]
+	Ordinal0 [0x00233DF4+81396]
+	Ordinal0 [0x00234DEE+85486]
+	Ordinal0 [0x00234D79+85369]
+	Ordinal0 [0x004485DC+2262492]
+	GetHandleVerifier [0x006D2874+1487204]
+	GetHandleVerifier [0x006D23CD+1486013]
+	GetHandleVerifier [0x006DA368+1518680]
+	GetHandleVerifier [0x006D2F4E+1488958]
+	Ordinal0 [0x0043ED0D+2223373]
+	Ordinal0 [0x0044A12B+2269483]
+	Ordinal0 [0x0044A26F+2269807]
+	Ordinal0 [0x0045ECB8+2354360]
+	BaseThreadInitThunk [0x763C6359+25]
+	RtlGetAppContainerNamedObjectPath [0x778C7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x778C7BF4+180]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at StepDefination.OlaCorporate1StepDef.contact_us_form_is_open(OlaCorporate1StepDef.java:18)
+	at ✽.Given Contact us form is open(src/test/java/features/OlaCorportae1.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>
